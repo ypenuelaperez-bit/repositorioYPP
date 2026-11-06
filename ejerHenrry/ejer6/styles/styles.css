@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #93d9e9; /* color fondo que pide el profe */
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    gap: 20px;
+}
+
+.caja {
+    background: white;
+    width: 220px;
+    min-height: 480px; /* altura mínima que pide */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+.cabecera {
+    background-color: salmon; /* color cabecera que pide */
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.lista {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 11px;
+    flex: 1;
+}
+
+.boton {
+    background: #eee;
+    text-align: center;
+    padding: 8px;
+    margin: 15px;
+    font-size: 10px;
+    border: 1px solid #ccc;
+}

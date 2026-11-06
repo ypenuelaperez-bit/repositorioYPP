@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px;
+}
+
+.menu-vertical {
+    width: 400px;
+}
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d9d9d9;
+    padding: 16px;
+    margin-bottom: 4px;
+}
+
+.nombre {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.entrar {
+    text-decoration: none;
+    background-color: #f2f2f2;
+    color: black;
+    font-size: 13px;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+}

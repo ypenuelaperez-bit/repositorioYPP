@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caja-centrada {
+    background-color: #e8e0dc;
+    width: 380px;
+    padding: 25px;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.texto {
+    font-size: 13px;
+    color: #666;
+    line-height: 18px;
+}
